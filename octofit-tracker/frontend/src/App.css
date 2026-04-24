@@ -1,0 +1,95 @@
+.app-shell {
+  min-height: 100vh;
+  background: linear-gradient(145deg, #f0f8ff 0%, #eef2ff 45%, #f8fafc 100%);
+  color: #1e2a44;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #0d6efd, #0a58ca) !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #e8f1ff !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #ffffff !important;
+}
+
+.brand-logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.data-card {
+  border: 0;
+  border-radius: 0.85rem;
+  background: #ffffff;
+  box-shadow: 0 0.25rem 1rem rgba(15, 23, 42, 0.08);
+}
+
+.card h2,
+.card .h3,
+.display-6 {
+  color: #0a3d91;
+}
+
+.table {
+  border-color: #d9e2ff;
+}
+
+.table thead.table-dark th {
+  background: linear-gradient(90deg, #1f3b73, #294b8f);
+  color: #ffffff;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: #f4f7ff;
+}
+
+.table-hover > tbody > tr:hover > * {
+  --bs-table-accent-bg: #e8efff;
+}
+
+.btn-primary {
+  background-color: #0a58ca;
+  border-color: #0a58ca;
+}
+
+.btn-primary:hover {
+  background-color: #0849a8;
+  border-color: #0849a8;
+}
+
+.btn-outline-primary {
+  color: #0a58ca;
+  border-color: #0a58ca;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0a58ca;
+  color: #ffffff;
+}
+
+a {
+  color: #0a58ca;
+}
+
+a:hover {
+  color: #0849a8;
+}
+
+.table thead th {
+  white-space: nowrap;
+}
+
+.nav-link.active {
+  font-weight: 600;
+}
